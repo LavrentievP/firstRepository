@@ -3,3 +3,4 @@ hello world
 5456124243
 line from user2
 lini from user1
+line from user1 - Lesson about rebase
