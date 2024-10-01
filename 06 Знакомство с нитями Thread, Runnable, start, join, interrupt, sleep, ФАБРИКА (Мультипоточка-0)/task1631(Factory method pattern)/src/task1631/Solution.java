@@ -1,5 +1,10 @@
 package task1631;
+import common.ImageReader;
+import common.ImageTypes;
 
+import common.ImageReader;
+import common.ImageReaderFactory;
+import common.ImageTypes;
 
 /* 
 Factory method pattern
@@ -22,11 +27,13 @@ Requirements:
 6. Метод getImageReader должен создавать и возвращать подходящий Reader.
 7. Метод getImageReader должен кидать исключение IllegalArgumentException, если передан неправильный параметр.*/
 
-import task1631.common.ImageReader;
-import task1631.common.ImageTypes;
+
+
 
 public class Solution {
     public static void main(String[] args) {
         ImageReader reader = ImageReaderFactory.getImageReader(ImageTypes.JPG);
     }
 }
+
+
